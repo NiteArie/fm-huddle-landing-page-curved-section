@@ -89,3 +89,45 @@ body {
     text-align: center;
     color: hsl(0, 0%, 50%);
 }
+
+/* Feature */
+
+.feature__card {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature__card--inverse {
+    flex-direction: row-reverse;
+}
+
+.feature__info {
+    flex: 1;
+    align-self: center;
+}
+
+.feature__info--inverse {
+    margin-left: 100px;
+}
+
+.feature__title {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.feature__desc {
+    margin-top: 30px;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.feature__image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.feature__illustration {
+    width: 100%;
+    height: auto;
+}
