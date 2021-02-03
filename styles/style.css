@@ -152,3 +152,69 @@ body {
     border: 0;
     border-radius: 30px;
 }
+
+/* Footer */
+
+.footer {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(207, 100%, 98%);
+}
+
+.footer__logo {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(141deg) brightness(103%) contrast(101%);
+}
+
+.footer__desc {
+    margin: 25px 0;
+    max-width: 350px;
+    line-height: 1.5;
+}
+
+.footer__contact {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__contact-desc {
+    margin-left: 15px;
+}
+
+.footer__newsletter {
+    margin-top: 10px;
+}
+
+.footer__title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__content {
+    margin: 25px 0 30px;
+    max-width: 380px;
+    line-height: 1.5;
+}
+
+.footer__form {
+    max-width: 450px;
+    display: flex;
+}
+
+.footer__input {
+    flex: 2;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.footer__submit {
+    flex: 1;
+    margin-left: 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(322, 100%, 66%);
+}
