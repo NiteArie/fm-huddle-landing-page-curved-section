@@ -3,3 +3,89 @@
 *::after {
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+
+.header__nav {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__button {
+    padding: 10px 30px;
+    background-color: transparent;
+    font-size: 17px;
+    color:hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+}
+
+.header__hero {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header__desc {
+    margin: 30px auto;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.header__cta {
+    padding: 20px 70px;
+    font-size: 17px;
+    color: hsl(207, 100%, 98%);
+    background-color:hsl(322, 100%, 66%);
+    border: 0;
+    border-radius: 30px;
+}
+
+.header__illustration {
+    margin: 50px auto;
+    display: block;
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+
+}
+
+.header__stats {
+    max-width: 900px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.header__stat {
+    text-align: left;
+}
+
+.header__icon {
+    width: 45px; 
+    height: auto;
+}
+
+.header__value {
+    margin: 20px 0 30px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.header__label {
+    font-size: 18px;
+    text-align: center;
+    color: hsl(0, 0%, 50%);
+}
