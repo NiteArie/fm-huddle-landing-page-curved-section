@@ -183,6 +183,24 @@ body {
     margin-left: 15px;
 }
 
+.footer__socials {
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer__social {
+    margin-right: 25px;
+}
+
+.footer__social-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__social-icon {
+    font-size: 30px;
+}
+
 .footer__newsletter {
     margin-top: 10px;
 }
