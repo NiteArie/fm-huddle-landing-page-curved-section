@@ -10,6 +10,10 @@ body {
 
 /* Header */
 
+.header {
+    margin-bottom: 200px;
+}
+
 .header__nav {
     padding: 60px;
     display: flex;
@@ -105,10 +109,59 @@ body {
 
 /* Feature */
 
+.feature {
+    margin-bottom: 200px;
+}
+
 .feature__card {
-    padding: 100px;
+    position: relative;
+    padding: 50px 100px;
     display: flex;
     justify-content: space-around;
+}
+
+.feature__card--tile {
+    background-color: #F6FBFF;
+}
+
+.feature__card--white {
+    margin: 200px 0 200px;
+}
+
+.feature__card--last {
+    background-color: #F6FBFF;
+}
+
+.feature__card::before,
+.feature__card::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature__card--tile::before {
+    top: -150px;
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+}
+
+.feature__card--tile::after {
+    bottom: -150px;
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+}
+
+.feature__card--last::before {
+    top: -150px;
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+}
+
+.feature__card--last::after {
+    bottom: -150px;
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
 }
 
 .feature__card--inverse {
