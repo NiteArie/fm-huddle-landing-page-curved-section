@@ -503,4 +503,15 @@ body {
         height: 150px;
         bottom: -150px;
     }
+
+    /* Call */
+
+    .call__title {
+        font-size: 32px;
+    }
+
+    .call__cta {
+        padding: 14px 35px;
+        font-size: 16px;
+    }
 }
