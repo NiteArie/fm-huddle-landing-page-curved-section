@@ -357,6 +357,12 @@ body {
 
 @media all and (max-width: 1000px) {
 
+    /* Header */
+
+    .header__nav {
+        padding: 40px;
+    }
+
     /* Feature */
 
     .feature__card {
@@ -412,5 +418,58 @@ body {
 
     .footer__desc {
         max-width: 380px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    /* Header */
+
+    .header {
+        margin-bottom: 100px;
+    }
+
+    .header__logo {
+        width: 180px;
+        height: auto;
+    }
+
+    .header__button {
+        font-size: 16px;
+    }
+
+    .header__hero {
+        padding: 20px;
+    }
+
+    .header__title {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+
+    .header__desc {
+        font-size: 16px;
+    }
+
+    .header__cta {
+        font-size: 16px;
+        padding: 15px 40px;
+    }
+
+    .header__stats {
+        grid-template-columns: 1fr;
+    }
+
+    .header__stat:nth-child(2) {
+        margin-top: 70px;
+    }
+
+    .header__icon {
+        width: 30px;
+        height: auto;
+    }
+    
+    .header__value {
+        margin: 10px 0;
+        font-size: 65px;
     }
 }
