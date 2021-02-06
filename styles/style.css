@@ -333,6 +333,28 @@ body {
     background-color: hsl(321, 100%, 78%);
 }
 
+@media all and (max-width: 1300px) {
+    .feature__card::before,
+    .feature__card::after {
+        height: 100px;
+    }
+
+    .feature__card--tile::before,
+    .feature__card--last::before {
+        top: -100px;
+    }
+
+    .feature__card--tile::after,
+    .feature__card--last::after {
+        bottom: -100px;
+    }
+
+    .footer::before {
+        height: 100px;
+        top: -100px;
+    }
+}
+
 @media all and (max-width: 1000px) {
 
     /* Footer */
@@ -345,6 +367,8 @@ body {
 
     .footer::before {
         background-image: url("../images/bg-footer-top-mobile.svg");
+        height: 100px;
+        top: -100px;
     }
 
     .footer__newsletter {
