@@ -357,6 +357,25 @@ body {
 
 @media all and (max-width: 1000px) {
 
+    /* Feature */
+
+    .feature__card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature__info--inverse {
+        margin-left: 0;
+    }
+
+    .feature__image {
+        order: -1;
+        margin-bottom: 50px;
+        /* max-width: none; */
+    }
+
+
     /* Footer */
 
     .footer {
