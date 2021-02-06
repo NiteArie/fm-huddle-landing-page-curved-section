@@ -201,6 +201,7 @@ body {
 /* Call */
 
 .call {
+    margin: 150px 0;
     text-align: center;
     padding-bottom: 100px;
 }
