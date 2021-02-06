@@ -338,6 +338,16 @@ body {
     background-color: hsl(321, 100%, 78%);
 }
 
+.footer__error {
+    margin-top: 10px;
+    color: hsl(0, 100%, 63%);
+    font-size: 13px;
+}
+
+.h-hidden {
+    visibility: hidden;
+}
+
 @media all and (max-width: 1300px) {
     .feature__card::before,
     .feature__card::after {
