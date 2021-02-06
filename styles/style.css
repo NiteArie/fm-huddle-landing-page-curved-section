@@ -231,7 +231,7 @@ body {
 
 .footer {
     position: relative;
-    padding: 100px;
+    padding: 50px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: hsl(192, 100%, 9%);
@@ -331,4 +331,43 @@ body {
 
 .footer__submit:hover {
     background-color: hsl(321, 100%, 78%);
+}
+
+@media all and (max-width: 1000px) {
+
+    /* Footer */
+
+    .footer {
+        padding: 20px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .footer::before {
+        background-image: url("../images/bg-footer-top-mobile.svg");
+    }
+
+    .footer__newsletter {
+        order: -1;
+    }
+
+    .footer__form {
+        flex-direction: column;
+    }
+
+    .footer__submit {
+        margin-top: 15px;
+        margin-left: 0;
+        padding: 13px 40px;
+        flex: 0;
+        align-self: flex-end;
+    }
+
+    .footer__info {
+        margin-top: 50px;
+    }
+
+    .footer__desc {
+        max-width: 380px;
+    }
 }
